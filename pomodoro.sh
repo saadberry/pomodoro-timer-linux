@@ -28,5 +28,6 @@ done
 # echo $time_elapsed
 
 if [ $time_elapsed -gt $pomo ]; then
-    echo -e "\nPomodoro complete! Wohoo!"
+    # echo -e "\nPomodoro complete! Wohoo!"
+    notify-send "Wohoo!" "Your Pomodoro has been completed"
 fi
